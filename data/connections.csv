@@ -1,0 +1,18 @@
+msg_e, srs_e,1
+msg_c, srs_c,1
+msg_p, srs_p,1
+msg_s, srs_s,1
+srs_c, po_msg,1
+srs_p, po_msg,1
+srs_e, pi_msg,1
+srs_s, pi_msg,1
+pi_msg,po_state,1
+po_msg, po_state,1
+po_msg, pe_state,1
+pe_state, is_pe,1
+pe_state, pe_state,1
+po_state, po_state,1
+po_state, pe_state,1
+po_state, is_po,1
+is_po, msg_p, 1
+is_pe, msg_e, 1

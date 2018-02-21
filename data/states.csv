@@ -1,0 +1,14 @@
+msg_e, input
+msg_c, input
+msg_p, input
+msg_s, input
+srs_e, id
+srs_c, id
+srs_p, id
+srs_s, id
+po_msg, special
+pi_msg, special
+pe_state, trait
+po_state, trait
+is_po, id
+is_pe, id
